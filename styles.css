@@ -66,3 +66,52 @@ h1 {
 h2 {
     font-size: 1.5rem;
 }
+
+/* Menu */
+
+nav ul li {
+    display: inline;
+    padding: 0.5em;
+}
+
+
+/* Layout */
+
+header {
+    background-color: rgb(240, 240, 177);
+    padding: 30px 50px; 
+    height:60px;
+}
+
+#branding {
+    display: inline;
+    float: left;
+}
+
+nav {
+    display: inline;
+    float: right;
+}
+
+nav ul {
+    float: right;
+}
+
+#hero{
+    padding: 200px 10px;
+    text-align: center;
+    background: #ccc;
+    margin: 0px;
+}
+
+#goals {
+    padding: 50px 30px;
+    display: grid; 
+    grid-template-columns: 30% 30% 30%;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.goal h2 {
+    text-align: center;
+}
