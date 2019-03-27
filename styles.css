@@ -80,20 +80,30 @@ nav ul li {
 header {
     background-color: rgb(240, 240, 177);
     padding: 30px 50px; 
-    height:60px;
+    height: 5rem;
 }
 
 #branding {
     display: inline;
-   /* float: left;*/
+    float: left;
+    width: 35%;
+}
+
+#branding h1 {
+    font-size: 26px;
+}
+
+#branding h2 {
+    font-size: 18px;
+    margin-top: 10px;
 }
 
 #logo img {
     display: inline;
     float: left;
-    width: 10vh;
-    height: 10vh;
-    padding: 0px 5px 0px 0px;
+    width: 80px;
+    height: 80px;
+    padding: 0px 10px 0px 0px;
 }
 
 nav {
