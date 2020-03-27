@@ -107,7 +107,7 @@ header {
 }
 
 nav {
-    display: inline;
+    display: flexbox;
     float: right;
 }
 
