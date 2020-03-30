@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Nagesh Pai's GitHub site</title>
 </head>
 <body>
     <header>
-        <section id="brand">NagPai</section>
-        <nav id="main-menu">
+        <section id="brand">Nag&pi;</section>
+        <nav id= "hamburger-menu">
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()"><button class="toggle"> <i class=" fa fa-bars"></i></button></a>
+        </nav>
+        <nav id="main-menu-toggle">
             <ul class="main-menu-list">
                 <li class="menu-item">Home</li>
                 <li class="menu-item">Me</li>
@@ -21,28 +25,26 @@
     <main>
         <section id="hero">
             <h1>Hi! I am Nagesh</h1>
-            <h2>Welcome to my GitHub site</h2>
+            <h2>Welcome to my GitHub landing site</h2>
         </section>
         <section id="social-media">
             <ul class="social">
-                <li class="social-link">github</li>
-                <li class="social-link">wordpress blog</li>
-                <li class="social-link">twitter</li>
-                <li class="social-link">facebook</li>
-                <li class="social-link">LinkedIn</li>
+                <li class="social-link"><i class="fa fa-github"></i></li>
+                <li class="social-link"><i class="fa fa-wordpress"></i></li>
+                <li class="social-link"><i class="fa fa-twitter"></i></li>
+                <li class="social-link"><i class="fa fa-facebook"></i></li>
+                <li class="social-link"><i class="fa fa-linkedin"></i></li>
             </ul>
         </section>
         <section id="interests">
-            <section class="third">Study Projects</section>
-            <section class="third">Courses I Love</section>
-            <section class="third">Hobbie Crafts</section>
+            <section class="interest third"><h2>Study Projects</h2></section>
+            <section class="interest third"><h2>Courses I <i class="fa fa-heart"></i></h2></section>
+            <section class="interest third"><h2>Hobby Time</h2></section>
         </section>
-
-    </main>
 
     <footer>
         copyleft - Nagesh Pai 
     </footer>
-    
+  <script src="script.js"></script>
 </body>
 </html>
