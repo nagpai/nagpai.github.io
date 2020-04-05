@@ -1,7 +1,7 @@
 /* https://javier.xyz/cohesive-colors/?src=594F4F,547980,45ADA8,9DE0AD,E5FCC2&overlay=FF9C00&intensity=0 */
 /* https://javier.xyz/cohesive-colors/?src=FF4242,F4FAD2,D4EE5E,E1EDB9,F0F2EB&overlay=FF9C00&intensity=0 */
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -15,8 +15,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -27,7 +27,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -68,7 +68,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header { 
+header {
     background: #F4EBC3;
     width: 100%;
     display: flex;
@@ -82,32 +82,32 @@ header {
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    color: #750000;
+    color: #512b58;
 }
 
-#main-menu-toggle {
+#main-menu {
     background: rgb(233, 217, 147);
     width: 100%;
     color: #755500;
     padding: 5px;
-    display: none; 
+    display: none;
 }
 
 .toggle {
-    background-color: #750000;
+    background-color: #512b58;
     border: none;
     color: #ffffff;
-    padding: 5px; 
+    padding: 5px;
     border-radius: 8px;
     font-size: 22px;
-    width: 50px; 
+    width: 50px;
     margin-bottom: 10px;
     cursor: pointer;
 }
 .menu-item {
     padding: 10px;
     text-align: center;
-    
+
 }
 
 main {
@@ -127,18 +127,17 @@ main {
 }
 
 #hero h1 {
-    font-size: 35px; 
+    font-size: 35px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.5em;
     text-transform: uppercase;
     font-weight: bold;
-    color: white; 
+    color: white;
 }
 
 #hero h2 {
-    color: #755500;
-    text-decoration: dashed underline;
-    t;
+    color: #512b58;
+
 }
 
 #social-media{
@@ -150,25 +149,125 @@ main {
     float: left;
     padding: 5px;
     font-size: 26px;
-    color: #750000;
+    color: #512b58;
 }
 
 #interests {
     display: flex;
     flex-direction: column;
     width: 80%;
-    margin: 0px auto 20px auto; 
+    margin: 0px auto 20px auto;
 }
 
 .interest {
     background-color: #b2c487;
-    padding: 20px; 
-    margin: 10px; 
+    padding: 20px;
+    margin: 10px;
     text-align: center;
-    font-weight: bold;   
+    font-weight: bold;
 }
 
 .interest h2 {
     font-size: 20px;
-    color: white; 
+    color: white;
+}
+
+#widget-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8db1ab ;
+    width: 100%;
+    padding: 10px;
+}
+
+.widget {
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    width: 50%;
+    min-width: 300px;
+}
+
+.widget h2 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: center;
+    border-bottom: 1px white solid;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.widget p {
+    color: white;
+}
+
+.copyright {
+    background-color: #512b58;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Desktop styles */
+
+@media (min-width: 540px) {
+
+    header {
+        background: #F4EBC3;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    #brand {
+        margin: 10px;
+        font-size: 40px;
+    }
+
+    #hamburger-menu {
+        display: none;
+    }
+
+    #main-menu {
+        display: block;
+        width: auto;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px 0px rgba(128, 103, 103, 0.75);
+
+    }
+
+    .menu-item {
+        float: left;
+    }
+
+    #interests {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .interest {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        width: 300px;
+    }
+
+    .interest h2 {
+        font-size: 40px;
+    }
+
+    #hero {
+        height: 60vh;
+    }
+
+    #widget-wrapper {
+        flex-direction: row;
+    }
 }
