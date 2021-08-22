@@ -1,0 +1,6 @@
+[submodule "memory-game"]
+	path = memory-game
+	url = https://github.com/nagpai/memory-game
+[submodule "framingham-calculator"]
+	path = framingham-calculator
+	url = https://github.com/nagpai/framingham-calculator.git
