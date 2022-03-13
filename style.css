@@ -1,0 +1,41 @@
+:root {
+    --main-bg: #4fcec1;
+    --main-light:  rgba(255,255,255, 90%);
+}
+
+body {
+    background-color: var(--main-bg);
+    color: var(--main-light);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1em;
+    background: var(--main-bg);
+    /*linear-gradient(-90deg,#fbbe6b, #f13ea3);*/
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sansita', sans-serif;
+    line-height: 1.2;
+    margin: 0px 0px 10px 0px;
+}
+h1 {
+    font-size: 36px;
+}
+
+a {
+    text-decoration: dashed;
+    color: #ffbc49;
+    font-weight: 600;
+}
+
+.main-container {
+    max-width: 1024px;
+    display: block;
+    margin: auto; 
+    padding: 30px 80px;
+    background: rgba(255,255,255, 10%);
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
