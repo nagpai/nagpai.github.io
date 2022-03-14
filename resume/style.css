@@ -7,7 +7,7 @@ body {
     background-color: var(--main-bg);
     color: var(--main-light);
     font-family: 'Open sans', sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     background: var(--main-bg);
     /*linear-gradient(-90deg,#fbbe6b, #f13ea3);*/
 }
@@ -24,8 +24,13 @@ h1 {
 
 a {
     text-decoration: dashed;
-    color: #ffbc49;
+    color: #555;
     font-weight: 600;
+    transition: color 1s;
+}
+
+a:hover{
+    color: #ccc;
 }
 
 .main-container {
