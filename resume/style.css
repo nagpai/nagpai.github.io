@@ -33,9 +33,20 @@ a {
     display: block;
     margin: auto; 
     padding: 30px 80px;
-    background: rgba(255,255,255, 10%);
+    background: rgba(0,0,0, 20%);
 }
 .row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.col-half {
+    width: 50%;
+    border: 1px solid rgba(255,255,255, 90%);
+    padding: 10px;
+    margin: 5px; 
+}
+
+ul > li {
+    margin-bottom: 10px;
 }
