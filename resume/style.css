@@ -46,11 +46,18 @@ a:hover{
 }
 
 .col-half {
-    width: 50%;
+    
     border: 1px solid rgba(255,255,255, 90%);
     padding: 10px;
     margin: 5px; 
 }
+
+@media ( max-width: 800px ){
+    .row {
+        flex-direction: column;
+    }
+}
+
 
 ul > li {
     margin-bottom: 10px;
