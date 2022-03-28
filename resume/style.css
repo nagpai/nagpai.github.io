@@ -56,8 +56,10 @@ a:hover{
     .row {
         flex-direction: column;
     }
+    .main-container {
+        padding: 10px;
+    }
 }
-
 
 ul > li {
     margin-bottom: 10px;
