@@ -23,10 +23,10 @@ h1 {
 }
 
 a {
-    text-decoration: dashed;
     color: #555;
     font-weight: 600;
     transition: color 1s;
+    text-decoration: underline dashed;
 }
 
 a:hover{
@@ -52,10 +52,10 @@ a:hover{
     margin: 5px; 
 }
 
-@media ( max-width: 800px ){
-    .row {
-        flex-direction: column;
-    }
+@media ( max-width: 480px ){
+.row {
+    flex-direction: column;
+}
 }
 
 
